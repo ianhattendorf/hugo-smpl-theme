@@ -18,15 +18,6 @@ googleAnalytics = "UA-XXXXXXXX-1"
   name = "Your Name"
   description = "Your Description"
 
-  # Background
-  [params.background]
-    image = "assets/img/bg.jpg"
-
-    # Enable and set background fade speed
-    [params.background.fade]
-      enable = true
-      speed = 500
-
   # Logo section
   [params.logo]
     enable = true

@@ -10,11 +10,3 @@ $('.tooltip-demo').tooltip({
   container: "body"
 })
 </script>
-
-<!--BACKSTRETCH-->
-<!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
-<!-- More options: https://github.com/srobbin/jquery-backstretch -->
-<script type="text/javascript" src="assets/js/jquery.backstretch.min.js"></script>
-<script>
-  $.backstretch("{{ .Site.Params.background.image }}"{{ if .Site.Params.background.fade.enable }}, { speed: {{ .Site.Params.background.fade.speed }} }{{ end }});
-</script>
